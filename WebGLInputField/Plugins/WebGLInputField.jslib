@@ -13,7 +13,7 @@ var WebGLInputField = {
 	      var element = document.createElement('div');
           // setup html
           var html = '<div id="nativeInputDialog" style="background:transparent; width:0%; height:0%; margin: 0; padding: 0; position: absolute; z-index:888;">' +
-              '<input id="nativeInputDialogInput" type="text" style="border: none; background: none; width:0; height:0;left: 0; top:0;color: white; outline: none; display: block; position: relative; font-size: 10px; ">' +
+              '<input id="nativeInputDialogInput" type="text" style="border: none; background: none; width:1px; height:1px;left: 0; top:0;color: white;opacity:0; outline: none; display: block; position: relative; font-size: 10px;cursor:none； ">' +
               '</div>';
 		  element.innerHTML = html;
 		  document.body.appendChild(element);

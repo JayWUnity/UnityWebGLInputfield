@@ -75,6 +75,8 @@ public class WebGLInputField : InputField
         System.GC.Collect();
     }
 
+   
+
     private IEnumerator OverlayHtmlCoroutine()
     {
         yield return DelySetPostion();
@@ -137,6 +139,7 @@ public class WebGLInputField : InputField
             ForceLabelUpdate();
         }
     }
+   
 
 #endif
     //注意Time.timeScale = 0 会无法更新信息
